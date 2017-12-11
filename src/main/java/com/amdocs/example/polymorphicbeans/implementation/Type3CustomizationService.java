@@ -2,11 +2,11 @@ package com.amdocs.example.polymorphicbeans.implementation;
 
 import com.amdocs.example.polymorphicbeans.interfaces.IByTypeService;
 
-public class Type3Service implements IByTypeService {
+public class Type3CustomizationService implements IByTypeService {
 
 	@Override
 	public String execute() {
-		return "Type3";
+		return "Type3Customization";
 	}
 
 }
