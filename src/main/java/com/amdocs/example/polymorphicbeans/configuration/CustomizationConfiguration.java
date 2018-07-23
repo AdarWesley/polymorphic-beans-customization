@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.amdocs.example.polymorphicbeans.implementation.Type1Service;
 import com.amdocs.example.polymorphicbeans.implementation.Type3Service;
 import com.amdocs.example.polymorphicbeans.interfaces.IByTypeService;
 
